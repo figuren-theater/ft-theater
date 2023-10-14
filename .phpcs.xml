@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="theater">
-	<description>Coding standards for theater</description>
+<ruleset name="ft-theater">
+	<description>Coding standards for ft-theater</description>
 
 	<file>.</file>
 
