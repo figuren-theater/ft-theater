@@ -5,10 +5,10 @@
     <img src="https://raw.githubusercontent.com/figuren-theater/logos/main/favicon.png" alt="figuren.theater Logo" width="100" height="100">
   </a>
 
-  <h1 align="center">figuren.theater | theater</h1>
+  <h1 align="center">figuren.theater | Theater</h1>
 
   <p align="center">
-    ... like the WordPress Multisite network for puppeteers - <a href="https://figuren.theater">figuren.theater</a>.
+    All you need, if you run a theater or a WordPress Multisite network for puppeteers like <a href="https://figuren.theater">figuren.theater</a>.
     <br /><br /><br />
     <a href="https://meta.figuren.theater/blog"><strong>Read our blog</strong></a>
     <br />
@@ -42,26 +42,13 @@ This is the long desc
 
 ## Usage
 
-### API
-
-```php
-Figuren_Theater::API\get_...()
-```
-
 ### Plugins included
 
 This package contains the following plugins. 
 Thoose are completely managed by code and lack of their typical UI.
 
-* ...
-
-
-### What does this package do in addition?
-
-Accompaniying the core functionality of the mentioned plugins, theese **best practices** are included with this package.
-
-* ...
-
+* [figuren-theater/label-printing](https://github.com/figuren-theater/label-printing)
+    Create printable labels with blocks
 
 ## Built with & uses
 

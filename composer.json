@@ -1,6 +1,6 @@
 {
   "name": "figuren-theater/ft-theater",
-  "description": "... like the figuren.theater WordPress Multisite network.",
+  "description": "All you need, if you run a theater or a WordPress Multisite network for puppeteers like figuren.theater.",
   "license": "GPL-3.0+",
   "type": "wordpress-muplugin",
   "keywords": [
