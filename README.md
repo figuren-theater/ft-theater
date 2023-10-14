@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/figuren-theater/theater">
+  <a href="https://github.com/figuren-theater/ft-theater">
     <img src="https://raw.githubusercontent.com/figuren-theater/logos/main/favicon.png" alt="figuren.theater Logo" width="100" height="100">
   </a>
 
@@ -27,7 +27,7 @@
 This is the long desc
 
 * [x] *list closed tracking-issues or `docs` files here*
-* [ ] Do you have any [ideas](https://github.com/figuren-theater/theater/issues/new) ?
+* [ ] Do you have any [ideas](https://github.com/figuren-theater/ft-theater/issues/new) ?
 
 ## Background & Motivation
 
@@ -37,7 +37,7 @@ This is the long desc
 
 1. Install via command line
     ```sh
-    composer require figuren-theater/theater
+    composer require figuren-theater/ft-theater
     ```
 
 ## Usage
@@ -87,13 +87,13 @@ Don't forget to give the project a star! Thanks again!
 ## Versioning
 
 We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this repository](https://github.com/figuren-theater/theater/tags).
+available, see the [tags on this repository](https://github.com/figuren-theater/ft-theater/tags).
 
 ## Authors
 
   - **Carsten Bach** - *Provided idea & code* - [figuren.theater/crew](https://figuren.theater/crew/)
 
-See also the list of [contributors](https://github.com/figuren-theater/theater/contributors)
+See also the list of [contributors](https://github.com/figuren-theater/ft-theater/contributors)
 who participated in this project.
 
 ## License

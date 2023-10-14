@@ -1,11 +1,11 @@
 <?php
 /**
- * Figuren_Theater theater.
+ * Figuren_Theater Theater.
  *
- * @package figuren-theater/theater
+ * @package figuren-theater/ft-theater
  */
 
-namespace Figuren_Theater\theater;
+namespace Figuren_Theater\Theater;
 
 use Altis;
 
@@ -26,7 +26,7 @@ function register() :void {
 	Altis\register_module(
 		'theater',
 		DIRECTORY,
-		'theater',
+		'Theater',
 		$options,
 		__NAMESPACE__ . '\\bootstrap'
 	);
@@ -44,10 +44,5 @@ function bootstrap() :void {
 	 *
 	 * @example NameSpace\bootstrap();
 	 */
-
-	/**
-	 * Load 'Best practices'.
-	 *
-	 * @example NameSpace\bootstrap();
-	 */
+	Label_Printing\bootstrap();
 }
