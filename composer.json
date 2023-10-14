@@ -25,6 +25,9 @@
     "issues": "https://github.com/figuren-theater/ft-theater/issues",
     "source": "https://github.com/figuren-theater/ft-theater"
   },
+  "require": {
+    "figuren-theater/label-printing": "0.2.0"
+  },
   "require-dev": {
     "figuren-theater/code-quality": "*"
   },
@@ -61,8 +64,5 @@
         "figuren-theater/label-printing"
       ]
     }
-  },
-  "require": {
-    "figuren-theater/label-printing": "0.2.0"
   }
 }
