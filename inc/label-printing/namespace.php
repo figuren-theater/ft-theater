@@ -55,7 +55,7 @@ function load_plugin() :void {
  *
  * @param array<int, array<string, string|int|float>> $default_labels An array of static default label configurations.
  *
- * @return array
+ * @return array<int, array<string, string|int|float>>
  */
 function filter_default_labels( array $default_labels ) : array {
 	return [
