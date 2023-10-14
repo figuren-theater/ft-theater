@@ -39,6 +39,7 @@
       "inc/"
     ],
     "files": [
+      "inc/label-printing/namespace.php",
       "inc/namespace.php"
     ]
   },
@@ -56,7 +57,12 @@
   },
   "extra": {
     "altis": {
-      "install-overrides": []
+      "install-overrides": [
+        "figuren-theater/label-printing"
+      ]
     }
+  },
+  "require": {
+    "figuren-theater/label-printing": "0.2.0"
   }
 }

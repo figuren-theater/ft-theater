@@ -26,7 +26,7 @@ function register() :void {
 	Altis\register_module(
 		'theater',
 		DIRECTORY,
-		'theater',
+		'Theater',
 		$options,
 		__NAMESPACE__ . '\\bootstrap'
 	);
@@ -44,10 +44,5 @@ function bootstrap() :void {
 	 *
 	 * @example NameSpace\bootstrap();
 	 */
-
-	/**
-	 * Load 'Best practices'.
-	 *
-	 * @example NameSpace\bootstrap();
-	 */
+	Label_Printing\bootstrap();
 }

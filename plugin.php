@@ -23,7 +23,7 @@
  * Update URI:        https://github.com/figuren-theater/ft-theater
  */
 
-namespace Figuren_Theater\theater;
+namespace Figuren_Theater\Theater;
 
 const DIRECTORY = __DIR__;
 
