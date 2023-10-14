@@ -1,11 +1,11 @@
 <?php
 /**
- * Figuren_Theater theater.
+ * Figuren_Theater Theater.
  *
- * @package figuren-theater/theater
+ * @package figuren-theater/ft-theater
  */
 
-namespace Figuren_Theater\theater;
+namespace Figuren_Theater\Theater;
 
 use Altis;
 
