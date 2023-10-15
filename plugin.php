@@ -11,7 +11,7 @@
  * Plugin Name:       figuren.theater | theater
  * Plugin URI:        https://github.com/figuren-theater/ft-theater
  * Description:       ... like the figuren.theater WordPress Multisite network.
- * Version:           0.1.0
+ * Version:           0.1.1
  * Requires at least: 6.0
  * Requires PHP:      7.1
  * Author:            figuren.theater
