@@ -7,6 +7,8 @@
 
 namespace Figuren_Theater\Theater\Label_Printing;
 
+use Figuren_Theater;
+
 use FT_VENDOR_DIR;
 
 use function add_action;
@@ -33,6 +35,11 @@ function bootstrap() :void {
  * @return void
  */
 function load_plugin() :void {
+
+	$config = Figuren_Theater\get_config()['modules']['theater'];
+	if ( ! $config['label-printing'] ) {
+		return;
+	}
 
 	// Do only load in "normal" admin view & public views.
 	// Not for:

@@ -17,7 +17,8 @@ use Altis;
 function register() :void {
 
 	$default_settings = [
-		'enabled' => true, // Needs to be set.
+		'enabled'        => true, // Needs to be set.
+		'label-printing' => false,
 	];
 	$options = [
 		'defaults' => $default_settings,
