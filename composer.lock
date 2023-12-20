@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c3c74b67a82d37c13a952a35b3013942",
+    "content-hash": "406dfc1dee32a93ccf5c67af199d20a2",
     "packages": [
         {
             "name": "figuren-theater/label-printing",
