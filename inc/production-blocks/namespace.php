@@ -25,7 +25,7 @@ const PLUGINPATH = '/figuren-theater/' . BASENAME;
  *
  * @return void
  */
-function bootstrap() :void {
+function bootstrap(): void {
 	add_action( 'init', __NAMESPACE__ . '\\load_plugin', -1 );
 }
 
@@ -34,7 +34,7 @@ function bootstrap() :void {
  *
  * @return void
  */
-function load_plugin() :void {
+function load_plugin(): void {
 
 	// Do only load in "normal" admin view & public views.
 	// Not for:
@@ -48,14 +48,14 @@ function load_plugin() :void {
 
 	add_filter(
 		'wpt-production-posttype',
-		function () : string {
+		function (): string {
 			return 'ft_production';
 		}
 	);
 
 	add_filter(
 		'wpt-production-shadow-taxonomy',
-		function () : string {
+		function (): string {
 			return 'ft_production_shadow';
 		}
 	);

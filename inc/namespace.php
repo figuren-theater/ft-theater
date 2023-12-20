@@ -14,13 +14,13 @@ use Altis;
  *
  * @return void
  */
-function register() :void {
+function register(): void {
 
 	$default_settings = [
 		'enabled'        => true, // Needs to be set.
 		'label-printing' => false,
 	];
-	$options = [
+	$options          = [
 		'defaults' => $default_settings,
 	];
 
@@ -38,7 +38,7 @@ function register() :void {
  *
  * @return void
  */
-function bootstrap() :void {
+function bootstrap(): void {
 
 	/**
 	 * Automatically load Plugins.
