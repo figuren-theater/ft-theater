@@ -46,4 +46,5 @@ function bootstrap() :void {
 	 * @example NameSpace\bootstrap();
 	 */
 	Label_Printing\bootstrap();
+	Production_Blocks\bootstrap();
 }
