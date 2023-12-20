@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aea7c9d51d594d40a1d09f7ab68d593f",
+    "content-hash": "c3c74b67a82d37c13a952a35b3013942",
     "packages": [
         {
             "name": "figuren-theater/label-printing",
@@ -65,6 +65,69 @@
                 "source": "https://github.com/figuren-theater/label-printing"
             },
             "time": "2023-10-13T10:38:09+00:00"
+        },
+        {
+            "name": "figuren-theater/theater-production-blocks",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/figuren-theater/theater-production-blocks.git",
+                "reference": "15fc4890fa6cc7e195157b8acc5079538fb14747"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/figuren-theater/theater-production-blocks/zipball/15fc4890fa6cc7e195157b8acc5079538fb14747",
+                "reference": "15fc4890fa6cc7e195157b8acc5079538fb14747",
+                "shasum": ""
+            },
+            "require-dev": {
+                "figuren-theater/code-quality": "*"
+            },
+            "suggest": {
+                "wpackagist-plugin/theater": "Even this plugin can be used standalone, it will be nicer & easier together with the WordPress 'Theater' plugin."
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "files": [
+                    "inc/block-loading/namespace.php",
+                    "inc/registration/namespace.php",
+                    "inc/namespace.php"
+                ],
+                "classmap": [
+                    "inc/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "figuren.theater",
+                    "email": "info@figuren.theater"
+                },
+                {
+                    "name": "Carsten Bach",
+                    "email": "mail@carsten-bach.de",
+                    "homepage": "https://carsten-bach.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress blocks for theater productions to be used with the Site- and Block-Editor.",
+            "homepage": "https://websites.fuer.figuren.theater",
+            "keywords": [
+                "blocks",
+                "gutenberg",
+                "theater",
+                "wordpress",
+                "wordpress-plugin"
+            ],
+            "support": {
+                "email": "info@figuren.theater",
+                "issues": "https://github.com/figuren-theater/theater-production-blocks/issues",
+                "source": "https://github.com/figuren-theater/theater-production-blocks"
+            },
+            "time": "2023-12-20T04:55:25+00:00"
         }
     ],
     "packages-dev": [
@@ -1336,12 +1399,12 @@
             "version": "3.7.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
+                "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
                 "reference": "ed8e00df0a83aa96acf703f8c2979ff33341f879"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/ed8e00df0a83aa96acf703f8c2979ff33341f879",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/ed8e00df0a83aa96acf703f8c2979ff33341f879",
                 "reference": "ed8e00df0a83aa96acf703f8c2979ff33341f879",
                 "shasum": ""
             },
@@ -1386,6 +1449,20 @@
                 "source": "https://github.com/squizlabs/PHP_CodeSniffer",
                 "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
             },
+            "funding": [
+                {
+                    "url": "https://github.com/PHPCSStandards",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/jrfnl",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/php_codesniffer",
+                    "type": "open_collective"
+                }
+            ],
             "time": "2023-02-22T23:07:41+00:00"
         },
         {
