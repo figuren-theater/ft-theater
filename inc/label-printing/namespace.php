@@ -25,7 +25,7 @@ const PLUGINPATH = '/figuren-theater/' . BASENAME;
  *
  * @return void
  */
-function bootstrap() :void {
+function bootstrap(): void {
 	add_action( 'init', __NAMESPACE__ . '\\load_plugin', -1 );
 }
 
@@ -34,7 +34,7 @@ function bootstrap() :void {
  *
  * @return void
  */
-function load_plugin() :void {
+function load_plugin(): void {
 
 	$config = Figuren_Theater\get_config()['modules']['theater'];
 	if ( ! $config['label-printing'] ) {
@@ -64,8 +64,8 @@ function load_plugin() :void {
  *
  * @return array<int, array<string, string|int|float>>
  */
-function filter_default_labels( array $default_labels ) : array {
-	return [
+function filter_default_labels( array $default_labels ): array {
+	$default_labels = [
 		[
 			'name'         => 'A6 Landscape (4 Stück)',
 			'width'        => 148,
@@ -99,4 +99,5 @@ function filter_default_labels( array $default_labels ) : array {
 			'orientation'  => 'portrait',
 		],
 	];
+	return $default_labels;
 }
