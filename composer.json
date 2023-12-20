@@ -43,7 +43,7 @@
       "inc/"
     ],
     "files": [
-      "inc/theater-production-blocks/namespace.php",
+      "inc/production-blocks/namespace.php",
       "inc/label-printing/namespace.php",
       "inc/namespace.php"
     ]
