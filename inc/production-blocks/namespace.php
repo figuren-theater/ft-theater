@@ -47,14 +47,14 @@ function load_plugin(): void {
 	require_once FT_VENDOR_DIR . PLUGINPATH; // phpcs:ignore WordPressVIPMinimum.Files.IncludingFile.UsingCustomConstant
 
 	add_filter(
-		'wpt-production-posttype',
+		'wpt_production-posttype',
 		function (): string {
 			return 'ft_production';
 		}
 	);
 
 	add_filter(
-		'wpt-production-shadow-taxonomy',
+		'wpt_production-shadow-taxonomy',
 		function (): string {
 			return 'ft_production_shadow';
 		}
