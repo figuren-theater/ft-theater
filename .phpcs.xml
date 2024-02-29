@@ -3,7 +3,8 @@
 	<description>Coding standards for ft-theater</description>
 
 	<file>.</file>
-
+	<arg name="basepath" value="./"/><!-- Strip the file paths down to the relevant bit -->
+	
 	<!--
 	<exclude-pattern>*/bin/*</exclude-pattern>
 	<exclude-pattern>*/tests/*</exclude-pattern>
@@ -18,14 +19,5 @@
 
 	<!-- Use figuren.theater Coding Standards -->
 	<rule ref="figurentheater" />
-
-	<!--
-	<rule ref="WordPress.WP.I18n">
-		<properties>
-			<property name="text_domain" type="array">
-				<element value="figurentheater"/>
-			</property>
-		</properties>
-	</rule> -->
 
 </ruleset>
