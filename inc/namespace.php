@@ -47,4 +47,5 @@ function bootstrap(): void {
 	 */
 	Label_Printing\bootstrap();
 	Production_Blocks\bootstrap();
+	Production_Subsites\bootstrap();
 }

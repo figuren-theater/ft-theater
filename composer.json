@@ -27,10 +27,11 @@
   },
   "require": {
     "figuren-theater/label-printing": "0.2",
-    "figuren-theater/theater-production-blocks": "0.1"
+    "figuren-theater/theater-production-blocks": "0.1",
+    "figuren-theater/theater-production-subsites": "^0.1.1"
   },
   "require-dev": {
-    "figuren-theater/code-quality": "*"
+    "figuren-theater/code-quality": "^1.1"
   },
   "repositories": [
     {
@@ -43,20 +44,21 @@
       "inc/"
     ],
     "files": [
-      "inc/production-blocks/namespace.php",
       "inc/label-printing/namespace.php",
+      "inc/production-blocks/namespace.php",
+      "inc/production-subsites/namespace.php",
       "inc/namespace.php"
     ]
   },
   "config": {
     "allow-plugins": {
       "composer/installers": true,
-      "koodimonni/composer-dropin-installer": true,
-      "figuren-theater/altis-core": true,
-      "phpstan/extension-installer": true,
-      "ergebnis/composer-normalize": true,
       "dealerdirect/phpcodesniffer-composer-installer": true,
-      "figuren-theater/ft-core": true
+      "ergebnis/composer-normalize": true,
+      "figuren-theater/altis-core": true,
+      "figuren-theater/ft-core": true,
+      "koodimonni/composer-dropin-installer": true,
+      "phpstan/extension-installer": true
     },
     "sort-packages": true
   },
@@ -64,7 +66,8 @@
     "altis": {
       "install-overrides": [
         "figuren-theater/label-printing",
-        "figuren-theater/theater-production-blocks"
+        "figuren-theater/theater-production-blocks",
+        "figuren-theater/theater-production-subsites"
       ]
     }
   }
