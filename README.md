@@ -49,6 +49,10 @@ Thoose are completely managed by code and lack of their typical UI.
 
 * [figuren-theater/label-printing](https://github.com/figuren-theater/label-printing)
     Create printable labels with blocks
+* [figuren-theater/theater-production-blocks](https://github.com/figuren-theater/theater-production-blocks)
+    WordPress blocks for theater productions to be used with the Site- and Block-Editor
+* [figuren-theater/theater-production-subsites](https://github.com/figuren-theater/theater-production-subsites)
+    Create sub-pages of theater productions.
 
 ## Built with & uses
 
