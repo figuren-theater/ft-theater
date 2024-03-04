@@ -27,7 +27,7 @@
   },
   "require": {
     "figuren-theater/label-printing": "0.2",
-    "figuren-theater/theater-production-blocks": "0.1",
+    "figuren-theater/theater-production-blocks": "0.2.0",
     "figuren-theater/theater-production-subsites": "^0.1.1"
   },
   "require-dev": {
