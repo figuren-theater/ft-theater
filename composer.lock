@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eac70d9f32e75c2bf0d05790429347c1",
+    "content-hash": "d562e8f5d1a6da5056a83bc9c65f74fa",
     "packages": [
         {
             "name": "figuren-theater/label-printing",
@@ -68,16 +68,16 @@
         },
         {
             "name": "figuren-theater/theater-production-blocks",
-            "version": "0.1.0",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/theater-production-blocks.git",
-                "reference": "15fc4890fa6cc7e195157b8acc5079538fb14747"
+                "reference": "8359e35a909d84adf541a3e7b59a0ae072ca467d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/theater-production-blocks/zipball/15fc4890fa6cc7e195157b8acc5079538fb14747",
-                "reference": "15fc4890fa6cc7e195157b8acc5079538fb14747",
+                "url": "https://api.github.com/repos/figuren-theater/theater-production-blocks/zipball/8359e35a909d84adf541a3e7b59a0ae072ca467d",
+                "reference": "8359e35a909d84adf541a3e7b59a0ae072ca467d",
                 "shasum": ""
             },
             "require-dev": {
@@ -127,7 +127,7 @@
                 "issues": "https://github.com/figuren-theater/theater-production-blocks/issues",
                 "source": "https://github.com/figuren-theater/theater-production-blocks"
             },
-            "time": "2023-12-20T04:55:25+00:00"
+            "time": "2024-02-14T23:50:27+00:00"
         },
         {
             "name": "figuren-theater/theater-production-subsites",
@@ -1952,5 +1952,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
