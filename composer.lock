@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d562e8f5d1a6da5056a83bc9c65f74fa",
+    "content-hash": "9d975e16e511078263cdfa4809971568",
     "packages": [
         {
             "name": "figuren-theater/label-printing",
-            "version": "0.2.0",
+            "version": "0.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/label-printing.git",
-                "reference": "ab4cd969776e5412486de6e358a86ffdeba68132"
+                "reference": "d9a32865908afb803c4a2550a903f607a6cb65e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/label-printing/zipball/ab4cd969776e5412486de6e358a86ffdeba68132",
-                "reference": "ab4cd969776e5412486de6e358a86ffdeba68132",
+                "url": "https://api.github.com/repos/figuren-theater/label-printing/zipball/d9a32865908afb803c4a2550a903f607a6cb65e4",
+                "reference": "d9a32865908afb803c4a2550a903f607a6cb65e4",
                 "shasum": ""
             },
             "require-dev": {
@@ -64,7 +64,7 @@
                 "issues": "https://github.com/figuren-theater/label-printing/issues",
                 "source": "https://github.com/figuren-theater/label-printing"
             },
-            "time": "2023-10-13T10:38:09+00:00"
+            "time": "2024-05-29T11:10:34+00:00"
         },
         {
             "name": "figuren-theater/theater-production-blocks",
