@@ -47,6 +47,8 @@ This is the long desc
 This package contains the following plugins. 
 Thoose are completely managed by code and lack of their typical UI.
 
+* [GatherPress](https://github.com/GatherPress/gatherpress)
+    Powering our community's event management needs. 
 * [figuren-theater/label-printing](https://github.com/figuren-theater/label-printing)
     Create printable labels with blocks
 * [figuren-theater/theater-production-blocks](https://github.com/figuren-theater/theater-production-blocks)
