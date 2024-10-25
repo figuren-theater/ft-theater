@@ -16,7 +16,7 @@ use function add_filter;
 use function is_network_admin;
 use function is_user_admin;
 
-const BASENAME   = 'label-printing/plugin.php';
+const BASENAME   = 'label-printing/label-printing.php';
 const PLUGINPATH = '/figuren-theater/' . BASENAME;
 // const PLUGINPATH = '/wpackagist-plugin/' . BASENAME; // Not yet, see #6.
 
@@ -35,7 +35,6 @@ function bootstrap(): void {
  * @return void
  */
 function load_plugin(): void {
-
 	$config = Figuren_Theater\get_config()['modules']['theater'];
 	if ( ! $config['label-printing'] ) {
 		return;
@@ -48,7 +47,6 @@ function load_plugin(): void {
 	if ( is_network_admin() || is_user_admin() ) {
 		return;
 	}
-
 	require_once FT_VENDOR_DIR . PLUGINPATH; // phpcs:ignore WordPressVIPMinimum.Files.IncludingFile.UsingCustomConstant
 
 	add_filter(
@@ -65,7 +63,7 @@ function load_plugin(): void {
  * @return array<int, array<string, string|int|float>>
  */
 function filter_default_labels( array $default_labels ): array {
-	$default_labels = [
+	return [
 		[
 			'name'         => 'A6 Landscape (4 Stück)',
 			'width'        => 148,
@@ -84,8 +82,8 @@ function filter_default_labels( array $default_labels ): array {
 		],
 		[
 			'name'         => 'HERMA Neon No. 5147 (8 Stück)',
-			'width'        => 96,
-			'height'       => 67,
+			'width'        => 99,
+			'height'       => 68,
 			'a4_border_tb' => 14,
 			'a4_border_lr' => 9,
 			'orientation'  => 'portrait',
@@ -94,10 +92,17 @@ function filter_default_labels( array $default_labels ): array {
 			'name'         => 'LABELident (64 Stück)',
 			'width'        => 48,
 			'height'       => 17,
-			'a4_border_tb' => 13,
+			'a4_border_tb' => 14, // 13 / 15 / 14
 			'a4_border_lr' => 8,
 			'orientation'  => 'portrait',
 		],
+		[
+			'name'         => 'AVERY 6122 (24 Stück)',
+			'width'        => 70,
+			'height'       => 36,
+			'a4_border_tb' => 14,
+			'a4_border_lr' => 7,
+			'orientation'  => 'portrait',
+		],
 	];
-	return $default_labels;
 }
