@@ -16,7 +16,7 @@ use function add_filter;
 use function is_network_admin;
 use function is_user_admin;
 
-const BASENAME   = 'label-printing/label-printing.php';
+const BASENAME   = 'label-printing/plugin.php';
 const PLUGINPATH = '/figuren-theater/' . BASENAME;
 // const PLUGINPATH = '/wpackagist-plugin/' . BASENAME; // Not yet, see #6.
 
