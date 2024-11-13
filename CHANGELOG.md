@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-theater/compare/0.2.0...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-theater/compare/0.2.1...HEAD)
+
+## [0.2.1](https://github.com/figuren-theater/ft-theater/compare/0.2.0...0.2.1) - 2024-11-13
+
+### :bug: Bugfix
+
+- Revert file-re-naming ([#23](https://github.com/figuren-theater/ft-theater/pull/23))
 
 ## [0.2.0](https://github.com/figuren-theater/ft-theater/compare/0.1.1...0.2.0) - 2024-10-25
 
