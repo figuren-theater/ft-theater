@@ -337,15 +337,15 @@
         },
         {
             "name": "wpackagist-plugin/gatherpress",
-            "version": "0.32.2",
+            "version": "0.32.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gatherpress/",
-                "reference": "tags/0.32.2"
+                "reference": "tags/0.32.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gatherpress.0.32.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/gatherpress.0.32.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2219,10 +2219,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
