@@ -2,7 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-theater/compare/0.2.1...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-theater/compare/0.2.2...HEAD)
+
+## [0.2.2](https://github.com/figuren-theater/ft-theater/compare/0.2.1...0.2.2) - 2025-12-11
+
+### Dependency Updates & Maintenance
+
+- Bump wpackagist-plugin/gatherpress from 0.32.2 to 0.32.3 ([#29](https://github.com/figuren-theater/ft-theater/pull/29))
+- Bump figuren-theater/code-quality from 1.2.1 to 2.0.0 ([#28](https://github.com/figuren-theater/ft-theater/pull/28))
+- Bump wpackagist-plugin/gatherpress from 0.31.0 to 0.32.2 ([#27](https://github.com/figuren-theater/ft-theater/pull/27))
 
 ## [0.2.1](https://github.com/figuren-theater/ft-theater/compare/0.2.0...0.2.1) - 2024-11-13
 
